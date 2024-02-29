@@ -1,1 +1,3 @@
-# belajar-devhandal-laravel
+# Belajar Laravel dari Beasiswa Devhandal.
+
+Bismillah Disciplined and Consistent
