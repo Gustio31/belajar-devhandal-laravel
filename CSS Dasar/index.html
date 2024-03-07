@@ -4,35 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar CSS Dasar</title>
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="/CSS Dasar/style.css">
+    <title>Medialink Intercontental</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="homepage">
-            <div class="homepage-kiri">
-                <div class="strip"></div>
-                <div class="judul">
-                    <h1>Belajar CSS Dasar</h1>
-                </div>
-                <div class="keterangan">
-                    <h4>PT Lubi Teknologi</h4>
-                    <h4>Gustio</h4>
-                </div>
-            </div>
-            <div class="homepage-kanan">
-                <img src="/CSS Dasar/foto.svg" alt="Somebody">
-            </div>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <a href="#">
+            <img src="img/mdlnet.png" alt="Medialink Intercontinent Logo">
+        </a>
+
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#fiber">Fiber</a>
+            <a href="#work">Work With Us</a>
+            <a href="#news">News</a>
         </div>
-    </div>
+
+        <div class="navbar-extra">
+            <button>Contact Us</button>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 
 </html>
