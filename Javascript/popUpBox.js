@@ -9,4 +9,4 @@ while (lagi) {
     lagi = confirm("Mau coba lagi?");
 }
 
-alert("Terima kasih");
+alert("Terima kasih atas konfirmasinya");
